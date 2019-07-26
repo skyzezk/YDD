@@ -1,0 +1,116 @@
+body{
+    font-family: arial !important;
+}
+.relative{
+position: relative !important;
+}
+.num{
+position:absolute;
+width:15px;
+height:15px;
+background:red;
+border-radius: 50%;
+color:white;
+font-size:12px;
+line-height:15px;
+left:55%;
+top:-270%;
+}
+.search{
+    height:55px;
+    width:100%;
+    background:#B9B9B9;
+    position: relative;
+}
+.search input{
+    width: 80%;
+    height: 1.9rem;
+    line-height: normal;
+    border: none;
+    font-size: 1rem;
+}
+.search button{
+    background: url(../../assets/ico_07.png) no-repeat 50% 50%;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: none;
+}
+.search img{
+    width:100%;
+}
+.search div{
+    width:90%;
+    height:60%;
+    background:#fff;
+    border-radius:20px;
+    text-align:center;
+    position: absolute;
+    top:20%;
+    left:5%;
+}
+.focusnone:focus{
+    outline:none;
+}
+p{
+    margin-top:5px;
+    text-align: center;
+    line-height: 1.3rem;
+    color:rgb(180, 180, 180);
+    font-size:10px;
+}
+a{
+    color:rgb(180, 180, 180);
+    font-size:10px;
+}
+#search .nav img{
+    height:60%;
+}
+#search .nav{
+    height:48px;
+    width:100%;
+    background:#f00;
+    display:flex;
+    justify-content: flex-end;
+    color:white;
+}
+#search .nav div{
+    width:20px;
+    padding:5px;
+    margin-top:9px;
+}
+.nav img{
+    height:90%;
+}
+.nav{
+    height:48px;
+    width:100%;
+    background:#f00;
+    display:flex;
+    justify-content: space-between;
+    color:white;
+}
+.nav h1{
+    line-height:50px;
+    font-size:20px;
+}
+.nav>div:first-child{
+    width:30px;
+}
+.nav>div:last-child{
+    width:30px;
+}
+.nav>div{
+    padding:5px;
+    margin-top:5px;
+}
+[slot='icon']{
+    width:26px;
+}
+.hide{
+    display:none;
+    width:330px;
+    height:100%;
+}

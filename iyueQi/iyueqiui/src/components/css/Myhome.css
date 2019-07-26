@@ -1,0 +1,120 @@
+.nav img{
+    height:90%;
+}
+.nav{
+    height:48px;
+    width:100%;
+    background:#f00;
+    display:flex;
+    justify-content: space-between;
+    color:white;
+}
+.nav h1{
+    line-height:50px;
+    font-size:20px;
+}
+.nav>div:first-child{
+    width:30px;
+}
+.nav>div:last-child{
+    width:30px;
+}
+.nav>div{
+    padding:5px;
+    margin-top:5px;
+}
+.hide{
+    display:none;
+    width:330px;
+    height:100%;
+}
+.region{
+    margin-top:2rem;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap; 
+}
+.region img{
+    width:4rem;
+}
+.region p{
+    text-decoration: none;
+    color:#333;
+    font-size:0.8rem;
+    margin-top:0.3rem;
+}
+.region>div{
+    text-align: center;
+    width:25%;
+}
+a{
+    text-decoration: none;
+}
+.proshow{
+    position: relative;
+    background:#fff;
+    margin:2rem 1rem;
+    overflow:hidden;
+}
+.proshow ul{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.proshow li{
+    width:50%;
+}
+.proshow ul li img{
+    width:150px;
+}
+.proshow>ul{
+    padding-top:1rem;
+    list-style: none;
+}
+.proshow p,span{
+    font-size:0.8rem;
+    color:#333;
+}
+.proshow span{
+    color:#f00;
+    margin-left:0.5rem;
+}
+.proshow>div:first-child{
+    position: absolute;
+    background:#f00;
+    transform:rotate(-30deg);
+    width:6rem;
+    height:3.5rem;
+    top:-2.4rem;
+    left:-1.5rem;
+}
+.proshow>div:last-child>div{
+    position: relative;
+    background:#f00;
+    transform:rotate(-30deg);
+    width:6rem;
+    height:3.5rem;
+    right:-2rem;
+    bottom:-2rem;
+}
+.proshow>div:last-child p{
+    transform:rotate(30deg);
+    color:#fff;
+    position: absolute;
+    left:2.6rem;
+    font-size:0.8rem;
+}
+.proshow>div:first-child p{
+    transform:rotate(30deg);
+    color:#fff;
+    position: absolute;
+    top:1.8rem;
+    left:1rem;
+    font-size:0.8rem;
+}
+.proshow>div:last-child{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
